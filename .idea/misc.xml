@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ksenia/AndroidStudioProjects/TSDApp/app/src/main/res/layout/fragment_settings.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/drawable/cancelled_checkbox.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/drawable/ic_cancel.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/drawable/ic_cancelled.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/drawable/ic_successed.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/drawable/successed_checkbox.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/layout/activity_main.xml" value="0.11911231884057971" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/layout/checklist_fragment.xml" value="0.10131712259371833" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/layout/fragment_input_chassis_number.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/layout/fragment_login.xml" value="0.22" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/layout/item_checklist.xml" value="0.22" />
+        <entry key="..\:/Users/admin/Desktop/TSDApp/app/src/main/res/layout/workflow_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/checklist_fragment.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/dialog_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_attach_tag.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_confirm_location.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_confirm_site_row.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_current_task.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_defects.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_input_chassis_number.xml" value="0.1984375" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_login.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_operations.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_search_defects.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_settings.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/fragment_task_list.xml" value="0.1984375" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/item_defect.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/item_defects.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/item_operations.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/item_task.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/item_workflow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/layout/workflow_fragment.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/menu/main_menu.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/lameri/StudioProjects/TSDApp/app/src/main/res/xml/taglist.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/mrsta/StudioProjects/TSDApp/app/src/main/res/layout/checklist_fragment.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/mrsta/StudioProjects/TSDApp/app/src/main/res/layout/dialog_fragment.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/mrsta/StudioProjects/TSDApp/app/src/main/res/layout/fragment_input_chassis_number.xml" value="0.1671875" />
+        <entry key="..\:/Users/mrsta/StudioProjects/TSDApp/app/src/main/res/layout/fragment_login.xml" value="0.1671875" />
+        <entry key="..\:/Users/mrsta/StudioProjects/TSDApp/app/src/main/res/layout/fragment_operations.xml" value="0.1" />
+        <entry key="..\:/Users/mrsta/StudioProjects/TSDApp/app/src/main/res/layout/fragment_task_list.xml" value="0.16983695652173914" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

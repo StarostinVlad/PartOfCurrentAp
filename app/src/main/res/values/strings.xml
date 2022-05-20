@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ТСД:ТФК</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Логин</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Авторизоваться</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="needPutOnNfc">Необходимо включить NFC!</string>
+    <string name="emailTemplate">%s\@thingsboard.org</string>
+    <string name="settings">Настройки</string>
+    <string name="saveSettings">Сохранить настройки</string>
+    <string name="operationsTitle">Операции</string>
+    <string name="operationInventory">Инвентаризация</string>
+    <string name="operationAcceptance">Приёмка</string>
+    <string name="operationMove">Перемещение</string>
+    <string name="operationShipment">отгрузка</string>
+    <string name="operationService">Обслуживание</string>
+    <string name="decline">Отклонить</string>
+    <string name="accept">Принять</string>
+    <string name="currentTask">Текущая задача</string>
+    <string name="find">Найти</string>
+    <string name="scanTag">Сканировать метку</string>
+    <string name="endTask">Завершить</string>
+    <string name="defects">Дефекты</string>
+    <string name="addDefect">Добавить дефект</string>
+    <string name="nothingNotFound">Ничего не найдено</string>
+    <string name="confirmLocation">Подтвердить геолокацию</string>
+    <string name="setSite">Подтвердить площадку</string>
+    <string name="setTargetSite">Выберете целевую площадку</string>
+    <string name="setTargetRow">Выберете целевой ряд</string>
+    <string name="needScanTag">Для завершения здания необходимо отсканировать метку</string>
+    <string-array name="schemas">
+        <item>https</item>
+        <item>http</item>
+    </string-array>
+</resources>

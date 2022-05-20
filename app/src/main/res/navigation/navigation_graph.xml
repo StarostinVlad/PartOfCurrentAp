@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/settingsFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.starostinvlad.tsdapp.login_screen.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_operationsFragment"
+            app:destination="@id/operationsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/workFlowFragment"
+        android:name="com.starostinvlad.tsdapp.workflow_screen.WorkFlowFragment"
+        android:label="WorkFlowFragment">
+        <action
+            android:id="@+id/action_workFlowFragment_to_checkListFragment"
+            app:destination="@id/checkListFragment" />
+        <argument
+            android:name="entityId"
+            app:argType="com.starostinvlad.tsdapp.data.EntityId" />
+        <action
+            android:id="@+id/action_workFlowFragment_to_defectsFragment"
+            app:destination="@id/defectsFragment" />
+        <action
+            android:id="@+id/action_workFlowFragment_to_confirmSiteRowFragment"
+            app:destination="@id/confirmSiteRowFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/checkListFragment"
+        android:name="com.starostinvlad.tsdapp.checklist_screen.CheckListFragment"
+        android:label="CheckListFragment">
+        <argument
+            android:name="FromTo"
+            app:argType="com.starostinvlad.tsdapp.data.FromTo" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.starostinvlad.tsdapp.settings_screen.SettingsFragment"
+        android:label="SettingsFragment">
+        <action
+            android:id="@+id/action_settingsFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputChassisNumberFragment"
+        android:name="com.starostinvlad.tsdapp.acceptance_screen.InputChassisNumberFragment"
+        android:label="InputChassisNumberFragment">
+        <action
+            android:id="@+id/action_inputChassisNumberFragment_to_taskListFragment"
+            app:destination="@id/taskListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/operationsFragment"
+        android:name="com.starostinvlad.tsdapp.operations_screen.OperationsFragment"
+        android:label="OperationsFragment">
+        <action
+            android:id="@+id/action_operationsFragment_to_inputChassisNumberFragment"
+            app:destination="@id/inputChassisNumberFragment" />
+        <action
+            android:id="@+id/action_operationsFragment_to_currentTaskFragment"
+            app:destination="@id/currentTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/currentTaskFragment"
+        android:name="com.starostinvlad.tsdapp.current_task_fragment.CurrentTaskFragment"
+        android:label="CurrentTaskFragment">
+        <argument
+            android:name="entityId"
+            app:argType="com.starostinvlad.tsdapp.data.EntityId" />
+        <action
+            android:id="@+id/action_currentTaskFragment_to_workFlowFragment"
+            app:destination="@id/workFlowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.starostinvlad.tsdapp.tasklist_screen.TaskListFragment"
+        android:label="TaskListFragment">
+        <action
+            android:id="@+id/action_taskListFragment_to_workFlowFragment"
+            app:destination="@id/workFlowFragment" />
+        <argument
+            android:name="taskListId"
+            app:argType="com.starostinvlad.tsdapp.data.EntityId" />
+        <argument
+            android:name="fromRfid"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_taskListFragment_to_attachTagFragment"
+            app:destination="@id/attachTagFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/attachTagFragment"
+        android:name="com.starostinvlad.tsdapp.attach_tag_screen.AttachTagFragment"
+        android:label="AttachTagFragment">
+        <action
+            android:id="@+id/action_attachTagFragment_to_workFlowFragment"
+            app:destination="@id/workFlowFragment" />
+        <argument
+            android:name="entityId"
+            app:argType="com.starostinvlad.tsdapp.data.EntityId" />
+    </fragment>
+    <fragment
+        android:id="@+id/defectsFragment"
+        android:name="com.starostinvlad.tsdapp.defects_screen.DefectsFragment"
+        android:label="DefectsFragment">
+        <action
+            android:id="@+id/action_defectsFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.starostinvlad.tsdapp.search_defect_dialog.SearchFragment"
+        android:label="SearchFragment" />
+    <fragment
+        android:id="@+id/confirmSiteRowFragment"
+        android:name="com.starostinvlad.tsdapp.confirm_site_row_screen.ConfirmSiteRowFragment"
+        android:label="ConfirmSiteRowFragment" >
+        <action
+            android:id="@+id/action_confirmSiteRowFragment_to_confirmLocationFragment"
+            app:destination="@id/confirmLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmLocationFragment"
+        android:name="com.starostinvlad.tsdapp.confirm_location_screen.ConfirmLocationFragment"
+        android:label="ConfirmLocationFragment" />
+</navigation>
